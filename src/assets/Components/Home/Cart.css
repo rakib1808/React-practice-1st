@@ -1,0 +1,59 @@
+.list {
+    font-size: 22px;
+  }
+  .list > li {
+    line-height: 32px;
+  }
+  
+  /* .list > li::marker {
+    font-size: 28px;
+    color: #61dafb;
+    
+  } */
+  
+  .body {
+    background-color: gray;
+    color: white;
+    padding: 28px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./d.jpeg);
+    /* background-repeat: no-repeat;  */
+    background-size: auto 100%; 
+    /* background-position-x: center;  */
+
+  }
+
+  .all-cart-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .cart-container {
+    background-color: gray;
+    
+    border-radius: 10px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+
+  .rating-container {
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 50px;
+    
+  }
+
+  .rating-container2 {
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 50px;
+    
+  }
+
+  span {
+    display: flex;
+    gap: 5px;
+  }

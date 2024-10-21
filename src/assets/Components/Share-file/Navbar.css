@@ -1,0 +1,43 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.logo > h3 {
+  font-size: 28px;
+  color: #61dafb;
+}
+
+h1{
+  font-size: 35px;
+  color: brown;
+  font: bold;
+} 
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(16, 39, 16);
+  padding: 0 16px;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+}
+
+.nav-items > li > a {
+  padding: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-items > li > a:hover {
+  color: burlywood;
+  border-bottom: 1px solid white;
+}
